@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName></SccProjectName>
+    <SccProvider></SccProvider>
+    <SccAuxPath></SccAuxPath>
+    <SccLocalPath></SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.90" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DealerNetAPI.Common\DealerNetAPI.Common.csproj" />
+    <ProjectReference Include="..\DealerNetAPI.DomainObject\DealerNetAPI.DomainObject.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ChannelFinance\" />
+  </ItemGroup>
+
+</Project>

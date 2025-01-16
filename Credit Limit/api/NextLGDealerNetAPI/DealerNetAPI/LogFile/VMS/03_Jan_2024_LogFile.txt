@@ -1,0 +1,4 @@
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DealerNetAPI.Areas.VMS.VendorVMSController.SaveVendor(Vendor vendor) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\Areas\VMS\VendorVMSController.cs:line 57
+==============================03_Jan_2024 09:20:25=============================

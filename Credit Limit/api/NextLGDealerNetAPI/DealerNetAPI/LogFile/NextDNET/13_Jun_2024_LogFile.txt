@@ -1,0 +1,38 @@
+==============================13_Jun_2024 05:44:12=============================
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00201: identifier 'DNET09_NEXTDNET_UTILITY_PKG.SSO_USER_VALIDATE_PROC' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, Int64 internalInitialJSONFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DealerNetAPI.ResourceAccess.CommonDB.getDataTableStoredProc(String sp_name, OracleParameter[] arrParams, String connectionString) in E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.ResourceAccess\CommonDB.cs:line 143
+   at DealerNetAPI.ResourceAccess.UserAccess.ValidateSSO(UserLogins userLogins) in E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.ResourceAccess\UserAccess.cs:line 221
+
+==============================13_Jun_2024 05:45:23=============================
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 1, column 7:
+PLS-00201: identifier 'DNET09_NEXTDNET_UTILITY_PKG.SSO_USER_VALIDATE_PROC' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, Int64 internalInitialJSONFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DealerNetAPI.ResourceAccess.CommonDB.getDataTableStoredProc(String sp_name, OracleParameter[] arrParams, String connectionString) in E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.ResourceAccess\CommonDB.cs:line 143
+   at DealerNetAPI.ResourceAccess.UserAccess.ValidateSSO(UserLogins userLogins) in E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.ResourceAccess\UserAccess.cs:line 221
+
+==============================13_Jun_2024 05:49:10=============================
+System.ArgumentException: Column 'ID' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DealerNetAPI.ResourceAccess.UserAccess.ValidateSSO(UserLogins userLogins) in E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.ResourceAccess\UserAccess.cs:line 222
+
+==============================13_Jun_2024 05:51:55=============================
+System.ArgumentException: Column 'ID' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DealerNetAPI.ResourceAccess.UserAccess.ValidateSSO(UserLogins userLogins) in E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.ResourceAccess\UserAccess.cs:line 222
+

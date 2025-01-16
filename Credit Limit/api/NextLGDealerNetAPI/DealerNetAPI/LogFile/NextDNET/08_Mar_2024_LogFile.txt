@@ -1,0 +1,28 @@
+==============================08_Mar_2024 05:59:35=============================
+ReadRoles() Initiate...
+
+==============================08_Mar_2024 05:59:37=============================
+ReadRoles() Data Access Layer call...
+
+==============================08_Mar_2024 05:59:53=============================
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at DealerNetAPI.ResourceAccess.CommonDB.OpenConnection(String connectionString) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.ResourceAccess\CommonDB.cs:line 212
+   at DealerNetAPI.ResourceAccess.CommonDB.getDataTableStoredProcAsync(String sp_name, OracleParameter[] arrParams, String connectionString) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.ResourceAccess\CommonDB.cs:line 150
+   at DealerNetAPI.ResourceAccess.UserAccess.ReadRoles() in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.ResourceAccess\UserAccess.cs:line 34
+
+==============================08_Mar_2024 06:00:15=============================
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at DealerNetAPI.ResourceAccess.CommonDB.OpenConnection(String connectionString) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.ResourceAccess\CommonDB.cs:line 212
+   at DealerNetAPI.ResourceAccess.CommonDB.getDataTableStoredProcAsync(String sp_name, OracleParameter[] arrParams, String connectionString) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.ResourceAccess\CommonDB.cs:line 150
+   at DealerNetAPI.ResourceAccess.UserAccess.ReadRoles() in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.ResourceAccess\UserAccess.cs:line 34
+   at DealerNetAPI.BusinessLogic.UserBusinessLogic.ReadRoles() in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.BusinessLogic\UserBusinessLogic.cs:line 35
+   at DealerNetAPI.Controllers.AccountController.ReadRoles() in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\Controllers\AccountController.cs:line 42
+

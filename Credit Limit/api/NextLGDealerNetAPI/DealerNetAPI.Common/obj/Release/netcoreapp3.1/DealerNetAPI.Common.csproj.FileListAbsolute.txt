@@ -1,0 +1,52 @@
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.Common.deps.json
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.Common.dll
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.Common.pdb
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.csproj.AssemblyReference.cache
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.AssemblyInfoInputs.cache
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.AssemblyInfo.cs
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.csproj.CoreCompileInputs.cache
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.dll
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.pdb
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.dll
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.pdb
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.csproj.CopyComplete
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.Common.deps.json
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.Common.dll
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.Common.pdb
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.dll
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.pdb
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.csproj.AssemblyReference.cache
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.AssemblyInfoInputs.cache
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.AssemblyInfo.cs
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.csproj.CoreCompileInputs.cache
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.csproj.CopyComplete
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.dll
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.pdb
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.Common.deps.json
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.Common.dll
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.Common.pdb
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.dll
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.pdb
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.csproj.AssemblyReference.cache
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.AssemblyInfoInputs.cache
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.AssemblyInfo.cs
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.csproj.CoreCompileInputs.cache
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.csproj.CopyComplete
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.dll
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.pdb
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.Common.deps.json
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.Common.dll
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.Common.pdb
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.dll
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.Common\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.pdb
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.csproj.AssemblyReference.cache
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.AssemblyInfoInputs.cache
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.AssemblyInfo.cs
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.csproj.CoreCompileInputs.cache
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.csproj.CopyComplete
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.dll
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.Common\obj\Release\netcoreapp3.1\DealerNetAPI.Common.pdb

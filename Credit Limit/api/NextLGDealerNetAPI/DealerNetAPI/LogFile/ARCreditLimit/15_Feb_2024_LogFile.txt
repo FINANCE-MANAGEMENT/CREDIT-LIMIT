@@ -1,0 +1,60 @@
+==============================15_Feb_2024 08:50:21=============================
+IN023772001H_37#System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\wwwroot\Upload\ARCreditLimit\FinancialStatement\IN023772001H_FinancialStatement_148545_c21f4923-62b1-486f-8690-8b95b39ba44e.pdf'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at DealerNetAPI.Common.Utilities.SendingEmail(EMail email, IConfiguration configuration) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\Utilities.cs:line 264
+   at DealerNetAPI.Areas.ARCreditLimit.ARCreditLimitSchedulerController.CreditLimitAutoEmailSent() in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\Areas\ARCreditLimit\ARCreditLimitSchedulerController.cs:line 211
+
+==============================15_Feb_2024 08:51:20=============================
+System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(IFormatProvider provider, String format, Object arg0)
+   at DealerNetAPI.Common.Utilities.AmountFormat(Object amount) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\Utilities.cs:line 973
+   at DealerNetAPI.Areas.ARCreditLimit.ARCreditLimitSchedulerController.CreditLimitAutoEmailSent() in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\Areas\ARCreditLimit\ARCreditLimitSchedulerController.cs:line 112
+
+==============================15_Feb_2024 08:51:40=============================
+System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(IFormatProvider provider, String format, Object arg0)
+   at DealerNetAPI.Common.Utilities.AmountFormat(Object amount) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\Utilities.cs:line 973
+   at DealerNetAPI.Areas.ARCreditLimit.ARCreditLimitSchedulerController.CreditLimitAutoEmailSent() in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\Areas\ARCreditLimit\ARCreditLimitSchedulerController.cs:line 112
+
+==============================15_Feb_2024 08:52:24=============================
+System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(IFormatProvider provider, String format, Object arg0)
+   at DealerNetAPI.Common.Utilities.AmountFormat(Object amount) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\Utilities.cs:line 973
+   at DealerNetAPI.Areas.ARCreditLimit.ARCreditLimitSchedulerController.CreditLimitAutoEmailSent() in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\Areas\ARCreditLimit\ARCreditLimitSchedulerController.cs:line 112
+
+==============================15_Feb_2024 09:03:00=============================
+IN023772001H_37#System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\wwwroot\Upload\ARCreditLimit\FinancialStatement\IN023772001H_FinancialStatement_148545_c21f4923-62b1-486f-8690-8b95b39ba44e.pdf'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at DealerNetAPI.Common.Utilities.SendingEmail(EMail email, IConfiguration configuration) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\Utilities.cs:line 264
+   at DealerNetAPI.Areas.ARCreditLimit.ARCreditLimitSchedulerController.CreditLimitAutoEmailSent() in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\Areas\ARCreditLimit\ARCreditLimitSchedulerController.cs:line 211
+
+==============================15_Feb_2024 09:04:25=============================
+IN023772001H_37#System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\wwwroot\Upload\ARCreditLimit\FinancialStatement\IN023772001H_FinancialStatement_148545_c21f4923-62b1-486f-8690-8b95b39ba44e.pdf'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at DealerNetAPI.Common.Utilities.SendingEmail(EMail email, IConfiguration configuration) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\Utilities.cs:line 264
+   at DealerNetAPI.Areas.ARCreditLimit.ARCreditLimitSchedulerController.CreditLimitAutoEmailSent() in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\Areas\ARCreditLimit\ARCreditLimitSchedulerController.cs:line 211
+

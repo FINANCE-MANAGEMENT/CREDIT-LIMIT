@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Mail for Balance Confirmation</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 600px;
+            font-size: 13px;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        th, thead {
+            border-collapse: collapse;
+            border: 1px solid black;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            background-color: #6c6e70;
+            color: white;
+            text-align: center;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        To,
+        <br />
+        {{VENDOR_NAME}}
+        <br />
+        <br />
+        Dear Partner,
+        <br />
+        <br />
+        We are pleased to inform you that AP Balance Confirmation process has started for the period ended {{CONFIRMATION_PERIOD_MONTH}}. You are requested to logon to Vendor Management Portal account on http://10.101.0.136/DealerNetPlusNew/login and confirm the AP balance after reconciling all transaction in your statement of accounts.
+        <br />
+        <br />
+        Your invoice details which is pending for payment as on this confirmation period date is given below.
+        <br />
+        <br />
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Branch</th>
+                <th>Invoice No.</th>
+                <th>Invoice Date</th>
+                <th>Closing Balance</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{INVOICE_DETAIL}}
+        </tbody>
+    </table>
+    <br />
+    <br />
+    If you have any queries / issues related to transactions during the above mentioned period then kindly mention the same on Balance Confirmation along with invoice details.
+    <br />
+    <br />
+    Kindly complete the AP Confirmation within 7 days.
+    <br />
+    <br />
+    Thanking you!
+    <br />
+    <br />
+    For LG Electronics India Pvt. Ltd.
+    <br />
+    <br />
+    (This is a computer generated mail hence does not required signature)
+</body>
+</html>

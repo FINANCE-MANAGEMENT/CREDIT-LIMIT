@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName></SccProjectName>
+    <SccProvider></SccProvider>
+    <SccAuxPath></SccAuxPath>
+    <SccLocalPath></SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\DealerNetAPI.DomainObject\DealerNetAPI.DomainObject.csproj" />
+    <ProjectReference Include="..\DealerNetAPI.ResourceAccess\DealerNetAPI.ResourceAccess.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="ChannelFinance\" />
+  </ItemGroup>
+
+</Project>

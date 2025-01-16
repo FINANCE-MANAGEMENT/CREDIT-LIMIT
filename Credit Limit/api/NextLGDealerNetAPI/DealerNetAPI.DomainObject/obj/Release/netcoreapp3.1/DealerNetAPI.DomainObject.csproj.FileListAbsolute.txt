@@ -1,0 +1,40 @@
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.DomainObject\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.deps.json
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.DomainObject\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.dll
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.DomainObject\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.pdb
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.csproj.AssemblyReference.cache
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.GeneratedMSBuildEditorConfig.editorconfig
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.AssemblyInfoInputs.cache
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.AssemblyInfo.cs
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.csproj.CoreCompileInputs.cache
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.dll
+E:\OFFICE\Applications\VSS_Code\Dealer Net Plus\DealerNetPlus API\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.pdb
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.DomainObject\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.deps.json
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.DomainObject\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.dll
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.DomainObject\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.pdb
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.csproj.AssemblyReference.cache
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.GeneratedMSBuildEditorConfig.editorconfig
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.AssemblyInfoInputs.cache
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.AssemblyInfo.cs
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.csproj.CoreCompileInputs.cache
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.dll
+E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.pdb
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.DomainObject\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.deps.json
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.DomainObject\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.dll
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.DomainObject\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.pdb
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.csproj.AssemblyReference.cache
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.GeneratedMSBuildEditorConfig.editorconfig
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.AssemblyInfoInputs.cache
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.AssemblyInfo.cs
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.csproj.CoreCompileInputs.cache
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.dll
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet\NextLGDealerNetAPI\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.pdb
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.DomainObject\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.deps.json
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.DomainObject\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.dll
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.DomainObject\bin\Release\netcoreapp3.1\DealerNetAPI.DomainObject.pdb
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.csproj.AssemblyReference.cache
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.GeneratedMSBuildEditorConfig.editorconfig
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.AssemblyInfoInputs.cache
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.AssemblyInfo.cs
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.csproj.CoreCompileInputs.cache
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.dll
+E:\OFFICE\Applications\LGEIL_GitHub\NextLGDealerNet_Old2\NextLGDealerNetAPI\DealerNetAPI.DomainObject\obj\Release\netcoreapp3.1\DealerNetAPI.DomainObject.pdb

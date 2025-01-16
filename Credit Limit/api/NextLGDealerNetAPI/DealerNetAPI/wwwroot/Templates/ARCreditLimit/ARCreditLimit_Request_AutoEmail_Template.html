@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Credit Limit Request Details</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+
+        .logo {
+            height: 25px;
+        }
+
+        .panel {
+            border: none !important;
+            margin: 1% !important;
+            border: 1.5px solid #a6a6a6 !important;
+        }
+
+        .application-name {
+            text-align: center;
+            font-weight: bold;
+            text-decoration: underline;
+            font-family: sans-serif, 'LG Smart UI';
+            font-size: 16px;
+        }
+
+        .tpview {
+            margin-left: 0px;
+            margin-right: 0px;
+            border-collapse: collapse !important;
+            font-family: sans-serif, 'LG Smart UI';
+        }
+
+            .tpview .lable-text {
+                background-color: #dddddd;
+                width: 100px !important;
+                border-collapse: collapse !important;
+                border: 1px solid #000000 !important;
+                font-weight: 400;
+                font-family: sans-serif, 'LG Smart UI';
+                font-size: 14px;
+            }
+
+
+        .sectionHeader {
+            color: #d80546 !important;
+            text-align: left;
+            padding: 4px 10px 0px 0px;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: sans-serif, 'LG Smart UI';
+        }
+
+        .hline {
+            height: 0.5px;
+            border: 0;
+            background: #808080;
+            padding: 0px;
+            margin-top: 5px;
+            font-family: sans-serif, 'LG Smart UI';
+        }
+
+        .tpview .table tr th {
+            background-color: #dddddd !important;
+            color: #383838 !important;
+            padding: 4px;
+            border-collapse: collapse !important;
+            border: 1px solid #c6c6c6 !important;
+            font-weight: 400;
+            font-size: 14px;
+            font-family: sans-serif, 'LG Smart UI';
+        }
+
+        .tpview .table tr td {
+            font-size: 13px;
+            padding: 4px;
+            border-collapse: collapse !important;
+            border: 1px solid #000000 !important;
+            font-family: sans-serif, 'LG Smart UI';
+        }
+
+        .borderbottomno {
+            border-bottom-color: #ffffff !important;
+        }
+
+        .bordertopno {
+            border-top-color: #ffffff !important;
+        }
+
+        .page-break {
+            display: block;
+            page-break-before: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row content" style="padding-left: 10px;">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="lable-text" style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px; font-weight: 400;">Header</td>
+                        <td style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px;">{{HEADER_CODE}}</td>
+                    </tr>
+                    <tr>
+                        <td class="lable-text" style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px; font-weight: 400;">Account Name</td>
+                        <td style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px;">{{ACCOUNT_NAME}}</td>
+                    </tr>
+                    <tr>
+                        <td class="lable-text" style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px; font-weight: 400;">Insurance Code</td>
+                        <td style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px;">{{INSURANCE_CODE}}</td>
+                    </tr>
+                    <tr>
+                        <td class="lable-text" style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px; font-weight: 400;">Current Limit</td>
+                        <td style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px;text-align:right;">{{CURRENT_CREDIT_LIMIT_AMOUNT}}</td>
+                    </tr>
+                    <tr>
+                        <td class="lable-text" style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px; font-weight: 400;">Credit Limit Request</td>
+                        <td style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px; text-align: right;">{{CREDIT_LIMIT_REQUEST_AMOUNT}}</td>
+                    </tr>
+                    <tr>
+                        <td class="lable-text" style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px; font-weight: 400;">Branch Remarks</td>
+                        <td style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px;">{{REMARKS}}</td>
+                    </tr>
+                    <tr>
+                        <td class="lable-text" style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px; font-weight: 400;">Status</td>
+                        <td style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px;">{{STATUS}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <td colspan="7" class="sectionHeader borderbottomno" style="border: 1px solid #c6c6c6; border-collapse: collapse; padding: 4px; font-weight: 400;">
+                            Future Sales Plan (Next six months)
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th style="border: 1px solid #c6c6c6; border-collapse: collapse; background-color: #dddddd;padding:4px;">Month</th>
+                        {{FUTURE_SALES_PLAN_MONTHYEAR}}
+                    </tr>
+                    <tr>
+                        <th style="border: 1px solid #c6c6c6; border-collapse: collapse; background-color: #dddddd;padding:4px;">Amount</th>
+                        {{FUTURE_SALES_PLAN_SALE_AMOUNT}}
+                    </tr>
+                </tbody>
+            </table>
+
+            <br />
+            <br />
+            This is an auto generated mail. Please do not reply.
+            <br />
+            <br />Thanks for Choosing LG
+
+        </div>
+    </div>
+
+</body>
+</html>

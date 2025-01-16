@@ -1,0 +1,4 @@
+==============================18_Apr_2024 04:42:40=============================
+IN001000,202406SMS Issues. #System.NullReferenceException: Object reference not set to an instance of an object.
+   at DealerNetAPI.Areas.VMS.VendorConfirmationController.VendorInvoiceVerifyApproveByAdmin(List`1 vendorInvoices, Int32 createdBy) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\Areas\VMS\VendorConfirmationController.cs:line 421
+

@@ -1,0 +1,7 @@
+.cache
+DealerNetAPI/obj/Debug/*
+DealerNetAPI/obj/Release/*
+DealerNetAPI.BusinessLogic/obj/Debug/*
+DealerNetAPI.Common/obj/Debug/*
+DealerNetAPI.DomainObject/obj/Debug/*
+DealerNetAPI.ResourceAccess/obj/Debug/*

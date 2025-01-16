@@ -1,0 +1,291 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Credit Limit Request Details</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+        table {
+            width: 700px;
+            border: 1px solid #c6c6c6;
+            font-family: Arial;
+            font-size: 12px;
+        }
+
+        .logo {
+            width: 70px;
+        }
+
+        .panel {
+            border: none !important;
+            margin: 1% !important;
+            border: 1.5px solid #a6a6a6 !important;
+        }
+
+        .lable-text {
+            background-color: #dddddd !important;
+            border-collapse: collapse !important;
+            border: 1px solid #c6c6c6 !important;
+            line-height: normal !important;
+            vertical-align: middle;
+            padding: 3px 6px;
+        }
+
+        .lable-data {
+            padding: 3px 6px !important;
+            border-collapse: collapse !important;
+            border: 1px solid #c6c6c6 !important;
+            line-height: normal !important;
+            vertical-align: middle;
+        }
+
+        .wid150 {
+            width: 150px !important;
+        }
+
+        .wid170 {
+            width: 170px !important;
+        }
+
+        .wid200 {
+            width: 200px !important;
+        }
+
+        .sectionHeader {
+            color: #d80546 !important;
+            text-align: left;
+            padding: 4px 10px 0px 0px;
+        }
+
+        .hline {
+            height: 0.5px;
+            border: 0;
+            background: #808080;
+            padding: 0px;
+            margin-top: 5px;
+            /*font-family: sans-serif, 'LG Smart UI';*/
+        }
+
+        .sales-hist tr th {
+            background-color: #dddddd !important;
+            color: #383838 !important;
+            padding: 3px 6px;
+            border-collapse: collapse !important;
+            border: 1px solid #c6c6c6 !important;
+            font-weight: 400;
+           /* border-top: 0px !important;
+            border-right: 0px !important;
+            border-left: 0px !important;*/
+        }
+
+        .sales-hist tr td {
+            padding: 3px 6px !important;
+            border-collapse: collapse !important;
+            border: 1px solid #c6c6c6 !important;
+            line-height: normal !important;
+            vertical-align: middle;
+            font-weight: 400;
+            /*border-top: 0px !important;
+            border-right: 0px !important;
+            border-left: 0px !important;*/
+        }
+
+        .table-remark tr td {
+            padding: 3px 6px !important;
+            border: 1px solid #c6c6c6 !important;
+        }
+
+        .borderbottomno {
+            border-bottom-color: #ffffff !important;
+        }
+
+        .bordertopno {
+            border-top-color: #ffffff !important;
+        }
+    </style>
+</head>
+<body>
+    <table style="border-collapse:collapse;border:none;margin-bottom:5px;" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td style="width:100px;"><img class="logo" src="https://nextlgdealernet.com/NextLGDealerNet/assets/images/logo.png" /></td>
+            <td style="text-align:center;"><h2>Credit Limit</h2></td>
+        </tr>
+    </table>
+    <table style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td class="lable-text wid170">Header Code</td>
+                <td class="lable-data">{{HEADER_CODE}}</td>
+                <td class="lable-text wid170">CTRL_AU</td>
+                <td class="lable-data">{{CTRL_AU}}</td>
+            </tr>
+            <tr>
+                <td class="lable-text">Account Name</td>
+                <td colspan="3" class="lable-data">{{ACCOUNT_NAME}}</td>
+            </tr>
+            <tr>
+                <td class="lable-text">Insurance</td>
+                <td class="lable-data">{{INSURANCE_NAME}}</td>
+                <td class="lable-text">Insurance Code</td>
+                <td class="lable-data">{{INSURANCE_CODE}}</td>
+            </tr>
+            <tr>
+                <td class="lable-text">Status</td>
+                <td class="lable-data">{{STATUS}}</td>
+                <td class="lable-text">Creation Date</td>
+                <td class="lable-data">{{CREATED_DATE}}</td>
+            </tr>
+            <tr>
+                <td class="lable-text">Approval Remark</td>
+                <td colspan="3" class="lable-data">{{ADMIN_REMARKS}}</td>
+            </tr>
+            <tr>
+                <td colspan="4" style="border-width:0px !important; border-top-width:0px !important; border-bottom-width:0px !important;">
+                    <table class="sales-hist" style="border-collapse:collapse;border:none;" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="sectionHeader borderbottomno">
+                                Sales History last two years (Amt in Ruppees)
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="sales-hist" style="border-collapse: collapse; border: none;" cellpadding="0" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Total</th>
+                                <th>Avg</th>
+                                <th>Max</th>
+                                <th>Max Sales Month</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{SALES_HISTORY}}
+                        </tbody>
+                    </table>
+                    <table class="sales-hist" style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="sectionHeader borderbottomno">
+                                Last Six Month Sales and Payment Trend
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="sales-hist" style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Month</th>
+                                {{SALES_PAYMENT_TREND_MONTHYEAR}}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Sales</th>
+                                {{SALES_PAYMENT_TREND_SALE_AMOUNT}}
+                            </tr>
+                            <tr>
+                                <th>Collection </th>
+                                {{SALES_PAYMENT_TREND_COLLECTION_AMOUNT}}
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="sales-hist" style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="sectionHeader borderbottomno">
+                                Month End OD History Last 12 months
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="sales-hist" style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td class="lable-text" style="width: 150px !important;">Number Of Times OD</td>
+                                <td>{{OD_HISTORY_TOTAL_OD}}</td>
+                                <td class="lable-text">Max OD</td>
+                                <td style="text-align:right">{{OD_HISTORY_MAX_OD}}</td>
+                                <td class="lable-text">Avg OD</td>
+                                <td style="text-align:right">{{OD_HISTORY_AVERAGE_OD}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="sales-hist" style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="sectionHeader borderbottomno">
+                                Future Sales Plan (Next six months)
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="sales-hist" style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Month</th>
+                                {{FUTURE_SALES_PLAN_MONTHYEAR}}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Amount</th>
+                                {{FUTURE_SALES_PLAN_SALE_AMOUNT}}
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td class="lable-text" style="width:120px !important;">Current Credit Limit</td>
+                                <td colspan="3" style="text-align:right">
+                                    {{CURRENT_CREDIT_LIMIT_AMOUNT}}
+                                </td>
+                                <td class="lable-text" style="width: 140px !important;">Current Limit End Date</td>
+                                <td style="width:100px;">
+                                    {{CURRENT_CREDIT_LIMIT_ENDDATE}}
+                                </td>
+                                <td class="lable-text" style="width: 120px !important;">Credit Limit Request</td>
+                                <td style="text-align:right">{{CREDIT_LIMIT_REQUEST_AMOUNT}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table-remark" style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="sectionHeader borderbottomno">Remarks if any on Limit request / buyer credibility:</td>
+                        </tr>
+                        <tr>
+                            <td>{{BRANCH_REMARKS}}</td>
+                        </tr>
+                    </table>
+                    <table class="table-remark" style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="sectionHeader borderbottomno">
+                                Enclosed Financial Statements (If No pls collect Audited / Provision soon)
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="table-remark" style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+                        {{FINANCIAL_STATEMENTS}}
+                    </table>
+                    <table class="table-remark" style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="sectionHeader borderbottomno">
+                                Notes
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="sales-hist" style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Note</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{NOTES}}
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+</body>
+</html>

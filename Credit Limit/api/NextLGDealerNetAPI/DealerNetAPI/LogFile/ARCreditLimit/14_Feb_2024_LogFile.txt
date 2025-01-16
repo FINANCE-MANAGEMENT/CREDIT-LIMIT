@@ -1,0 +1,48 @@
+==============================14_Feb_2024 09:27:10=============================
+IN023772001H_37#System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\wwwroot\Upload\ARCreditLimit\FinancialStatement\IN023772001H_FinancialStatement_148545_c21f4923-62b1-486f-8690-8b95b39ba44e.pdf'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at DealerNetAPI.Common.Utilities.SendingEmail(EMail email, IConfiguration configuration) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\Utilities.cs:line 263
+   at DealerNetAPI.Areas.ARCreditLimit.ARCreditLimitSchedulerController.CreditLimitAutoEmailSent() in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\Areas\ARCreditLimit\ARCreditLimitSchedulerController.cs:line 207
+
+==============================14_Feb_2024 05:34:57=============================
+IN023772001H_37#System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\wwwroot\Upload\ARCreditLimit\FinancialStatement\IN023772001H_FinancialStatement_148545_c21f4923-62b1-486f-8690-8b95b39ba44e.pdf'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at DealerNetAPI.Common.Utilities.SendingEmail(EMail email, IConfiguration configuration) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\Utilities.cs:line 264
+   at DealerNetAPI.Areas.ARCreditLimit.ARCreditLimitSchedulerController.CreditLimitAutoEmailSent() in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\Areas\ARCreditLimit\ARCreditLimitSchedulerController.cs:line 211
+
+==============================14_Feb_2024 05:41:01=============================
+IN023772001H_37#System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\wwwroot\Upload\ARCreditLimit\FinancialStatement\IN023772001H_FinancialStatement_148545_c21f4923-62b1-486f-8690-8b95b39ba44e.pdf'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at DealerNetAPI.Common.Utilities.SendingEmail(EMail email, IConfiguration configuration) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\Utilities.cs:line 264
+   at DealerNetAPI.Areas.ARCreditLimit.ARCreditLimitSchedulerController.CreditLimitAutoEmailSent() in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\Areas\ARCreditLimit\ARCreditLimitSchedulerController.cs:line 211
+
+==============================14_Feb_2024 05:43:11=============================
+IN023772001H_37#System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\wwwroot\Upload\ARCreditLimit\FinancialStatement\IN023772001H_FinancialStatement_148545_c21f4923-62b1-486f-8690-8b95b39ba44e.pdf'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at DealerNetAPI.Common.Utilities.SendingEmail(EMail email, IConfiguration configuration) in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI.Common\Utilities.cs:line 264
+   at DealerNetAPI.Areas.ARCreditLimit.ARCreditLimitSchedulerController.CreditLimitAutoEmailSent() in E:\OFFICE\Applications\GitHub\DealerNetModules\Dealernet-Module\DealerNetAPI\Areas\ARCreditLimit\ARCreditLimitSchedulerController.cs:line 211
+
